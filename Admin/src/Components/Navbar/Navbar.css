@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+.navbar button {
+    background: transparent;
+    font-size: 16px;
+    color: #49557e;
+    border: 1px solid tomato;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px 30px;
+    transition: 0.3s;
+}
+
+.navbar button:hover {
+    background-color: #fff4f2;
+}
+
+.logo {
+    width: max(10%, 80px);
+}
+
+.navbar .profile-img {
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+    border-radius: 0 50% 50% 0px;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-login {
+    display: none;
+}
+
+
+.profile:hover .profile-login {
+    display: block;
+}
+
+.logout {
+    cursor: pointer;
+}
